@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="plugin.video.playiptv" name="PLAYIPTV" version="1.0" provider-name="PLAYIPTV">
-  <requires>
-     <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="init.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <website></website>
-    <description lang="en">CANALES EN VIVO, PELICULAS, SERIES, PPV Y MAS</description>
-    <forum></forum>
-    <email></email>
-    <disclaimer lang="es">CANALES EN VIVO, PELICULAS, SERIES, PPV Y MAS</disclaimer>
-    <platform>all</platform>
-  </extension>
+<addon id="repository.playiptv" name="PLAYIPTV REPO" version="1.0" provider-name="PLAYIPTV">
+	<extension point="xbmc.addon.repository" name="PLAYIPTV ADDON">
+		<info compressed="false">http://raw.github.com/PlayIPTVPr/PlayPR/master/addons.xml</info>
+		<checksum>http://raw.github.com/PlayIPTVPr/PlayPR/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/PlayIPTVPr/PlayPR/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>ACTUALIZACION PLAYIPTV</description>
+		<platform>all</platform>
+	</extension>
 </addon>
-</addons>
+
+
